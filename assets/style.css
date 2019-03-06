@@ -1,0 +1,33 @@
+/*   ===   COMMON STYLES   ===   */
+input,
+select {
+    width: 100%;
+}
+
+/*   FORM TEMPLATE   */
+#upload-submit {
+    margin-top: 30px;
+}
+.form-fieldset {
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+}
+.form-fieldset .label-field {
+    width: 260px;
+}
+button:disabled {
+    background-color: #aaaaaa;
+}
+.error {
+    color: #ff0024;
+}
+.link-button {
+    padding: 12px;
+    background-color: #23282D;
+    color: #ffffff;
+    display: inline-block;
+}
+a.link-button:hover {
+    color: #aaaaaa;
+}
